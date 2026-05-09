@@ -7,4 +7,4 @@ Set-Location "$PSScriptRoot\.."
 
 git add .
 git commit -m $Message
-git push
+git push --set-upstream origin (git branch --show-current)
