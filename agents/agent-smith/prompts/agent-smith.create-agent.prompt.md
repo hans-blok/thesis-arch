@@ -6,13 +6,7 @@ description: >
 
 input:
   required:
-    - agent_slug:          # technical identifier, e.g. "agent-reviewer"
-    - agent_name:          # human-readable name, e.g. "Agent Reviewer"
-    - boundary_file:       # path to the approved agent-boundary.md
-    - charter_file:        # path to the approved agent-charter.md
-  optional:
-    - agent_id:            # numeric ID; auto-assigned if omitted
-    - intents:             # list of intents to scaffold contracts for
+    - agent_slug:          # technical identifier, e.g. "agent-reviewer"; used to locate agents/{agent_slug}/
 
 instructions: |
   Read and follow:
